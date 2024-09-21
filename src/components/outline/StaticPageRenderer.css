@@ -1,0 +1,49 @@
+/* src/components/StaticPageRenderer.css */
+.static-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .static-page-content {
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  .static-page-content h1,
+  .static-page-content h2,
+  .static-page-content h3,
+  .static-page-content h4,
+  .static-page-content h5,
+  .static-page-content h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .static-page-content p,
+  .static-page-content ul,
+  .static-page-content ol {
+    margin-bottom: 1em;
+  }
+  
+  .static-page-content ul,
+  .static-page-content ol {
+    padding-left: 2em;
+  }
+  
+  .static-page-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
+  
+  .static-page-content pre,
+  .static-page-content code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1em;
+    overflow-x: auto;
+  }
+  
